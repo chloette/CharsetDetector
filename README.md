@@ -4,14 +4,15 @@ CharsetDetector
 ##About
 `CharsetDetector` is an android library which can detect charset, based on [jchardet](http://lxr.mozilla.org/mozilla/source/intl/chardet/), supporting ***detect charset*** easily. It includes Java part, JNI part and C part.
 
+[BTW, this project was closed several years ago.]
+
 ##Why not jchardet 
-Of course, you can use it as "jchardet on Android" directly.
-***Better correct recognition rate.*** (Optimized for subtitles and some specific charsets)
+* ***Better correct recognition rate.*** (Optimized for subtitles and some specific charsets)
+* Of course, you can use it as "jchardet on Android" directly.
 
 ##How to use
 ####Sample code
 `CharsetDetector.Codepage codepage = CharsetDetector.getInstance().detect("/sdcard/gb2312.txt");`
-That's all.
 
 ####JNI
 * Makesure you know what NDK is.
